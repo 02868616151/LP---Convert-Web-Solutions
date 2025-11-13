@@ -25,16 +25,16 @@ const Contact: React.FC = () => {
                 <p className="text-gray-400 mb-8 leading-relaxed">
                     Nossa consulta é o primeiro passo para criar uma landing page que não só impressiona, mas também entrega resultados tangíveis. Ao preencher o formulário, você nos fornece as informações essenciais para prepararmos uma análise estratégica e personalizada para o seu negócio.
                 </p>
-                <div className="mt-8 flex justify-center lg:justify-start items-start space-x-10">
-                    <div className="flex flex-col items-center space-y-2 text-center w-28">
+                <div className="mt-8 flex justify-center lg:justify-start items-start space-x-6">
+                    <div className="flex flex-col items-center space-y-2 text-center w-24">
                         <PhoneIcon />
                         <span className="text-gray-300 text-sm">(47)98422-4063</span>
                     </div>
-                    <a href="https://www.instagram.com/convert.web/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center space-y-2 text-white hover:text-[#F47C3C] transition-colors group text-center w-28">
+                    <a href="https://www.instagram.com/convert.web/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center space-y-2 text-white hover:text-[#F47C3C] transition-colors group text-center w-24">
                         <InstagramIcon />
                         <span className="text-gray-300 group-hover:text-[#F47C3C] text-sm">@convert.web</span>
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=61583725076180&locale=pt_BR" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="flex flex-col items-center space-y-2 text-white hover:text-[#F47C3C] transition-colors group text-center w-28">
+                    <a href="https://www.facebook.com/profile.php?id=61583725076180&locale=pt_BR" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="flex flex-col items-center space-y-2 text-white hover:text-[#F47C3C] transition-colors group text-center w-24">
                         <FacebookIcon />
                         <span className="text-gray-300 group-hover:text-[#F47C3C] text-sm">Convert Web</span>
                     </a>

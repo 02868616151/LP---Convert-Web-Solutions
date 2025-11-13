@@ -4,7 +4,7 @@ import React from 'react';
 const ServiceCard: React.FC<{ icon: React.ReactNode; title: string; description: string }> = ({ icon, title, description }) => (
   <div className="bg-[#2C313A] p-8 rounded-lg border border-gray-700 hover:border-[#F47C3C] hover:shadow-2xl hover:shadow-[#F47C3C]/20 transition-all duration-300 transform hover:-translate-y-2">
     <div className="text-[#F47C3C] mb-4">{icon}</div>
-    <h3 className="text-2xl font-bold mb-3">{title}</h3>
+    <h3 className="text-xl md:text-2xl font-bold mb-3">{title}</h3>
     <p className="text-gray-400">{description}</p>
   </div>
 );
